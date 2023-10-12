@@ -10,10 +10,6 @@
 * example_sjf.out: expected output when running `./scheduler.out 0 SJF example_sjf.in`
 * example_sjf_analysis.out: expected output when running `./scheduler.out 1 SJF example_sjf.in`
 
-## Notes
-
-The `scheduler.c` file already contains some useful functions pertaining the implementation of a linked list (as requested by the assignment), reading the content of a workload file, and prototypes of functions implementing the FIFO scheduler and the FIFO scheduler analysis. You will need to fill in those functions, and create additional ones to implement the SJF scheduler and the SJF scheduler analysis. Please note that you will also need to add a `Makefile`; running `make` in your project directory should produce the `scheduler.out` executable.
-
 ## Note on testing
 
 The test input is provided **for your convenience only**; when grading, we may run the scheduler on different inputs. If your code runs correctly on the provided inputs but fails on other ones, you will still lose points. You are encouraged to test your code with different inputs, and to write your own tests. You can use the example files as inspiration for those.
