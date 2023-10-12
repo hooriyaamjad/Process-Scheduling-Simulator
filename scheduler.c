@@ -147,7 +147,6 @@ void sortJobsByLength(struct job **head_ref)
 
 void policy_FIFO(struct job *head)
 {
-    // TODO: Fill this in
     struct job *current = head;
     int time = 0;
 
