@@ -1,4 +1,4 @@
-# Lab 4 project template
+# FIFO and SJF process scheduling simulator
 
 ## Contents
 
